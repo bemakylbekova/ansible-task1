@@ -22,7 +22,7 @@
       dest: /tmp/
       remote_src: yes
 
-  - name: Copy files to /var/www/
+  - name: Copy files to /var/www/html
     copy:
       src: /tmp/creative-studio/public_html/
       dest: /var/www/html/
