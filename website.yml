@@ -32,8 +32,3 @@
       src: /tmp/creative-studio/public_html/
       dest: /var/www/html/
       remote_src: yes
-
-  - name: Restart service httpd, in all cases
-    service:
-      name: httpd
-      state: restarted
