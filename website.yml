@@ -10,6 +10,11 @@
       state: started
       enabled: yes
       name: httpd
+      
+  - name: Install wget
+    yum:
+      name: wget
+      state: latest        
 
   - name: Install Unzip
     yum:
